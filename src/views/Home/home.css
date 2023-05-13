@@ -1,0 +1,604 @@
+.bg1-img {
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home-nav {
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.order-ur-food-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.bg1-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-direction: 33rem;
+    top: 8rem;
+    left: 14rem;
+    width: 60%;
+}
+
+.input-search-div {
+    display: flex;
+    position: relative;
+}
+
+.search-input {
+    display: flex;
+    width: 60%;
+    padding: 1.2rem 1.2rem 1.2rem 3.8rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14);
+    /* position: relative; */
+    outline: none;
+    color: #393939;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.27px;
+    line-height: 22px;
+}
+
+.search-input::placeholder {
+    color: #BDBDBD;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.27px;
+    line-height: 22px;
+    /* padding-left: 0rem; */
+}
+
+.search-icn {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1rem;
+    /* right: 43rem; */
+}
+
+.place-input {
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 1.2rem 2rem;
+    /* position: relative; */
+    display: flex;
+    width: 71%;
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 19px;
+    outline: none;
+}
+
+.place-input:placeholder-shown {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 19px;
+    width: 11rem;
+    /* width: 70%; */
+    /* padding-left: 1rem; */
+}
+
+.place-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.place-input-div {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.pin-icn {
+    position: absolute;
+    /* top: 16.5rem; */
+    bottom: 1.2rem;
+    left: 0.7rem;
+}
+
+.loc-icn {
+    position: absolute;
+    left: 13.4rem;
+    /* padding-left: 0.2rem; */
+    /* right: 30rem; */
+    bottom: 1.3rem;
+    display: flex;
+    height: 16px;
+    width: 16px;
+}
+.time-input {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    width: 75% ;
+    display: flex;
+    align-items: center;
+    padding: 0.12rem 0rem 0.12rem 0.5rem;
+    color: #4C4C4C;
+    font-family: ".SF NS Text", sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 17px;
+}
+
+.now-icn {
+    position: unset;
+    height: 54px;
+    left: 3.5rem;
+    top: 0.12rem;
+}
+
+.place-form-div {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.scrollBar {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.66;
+    color: #848484;
+    font-family: "Open Sans";
+    font-size: 13px;
+    letter-spacing: 3.66px;
+    line-height: 18px;
+    bottom: 3rem;
+    cursor: pointer;
+    /* padding-bottom: 2rem; */
+}
+
+.afterScrollNav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 9;
+}
+
+.fixed-nav {
+    display: flex;
+    width: 97%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
+}
+
+.sroll-right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lorem {
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 33px;
+    letter-spacing: 0;
+    line-height: 43px;
+}
+
+.english-lang {
+    color: #6B6B6B;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+}
+
+.login-new {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.create-an-account {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-right: 1rem;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.cart-bag-info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+img.cart-bag-img {
+    display: flex;
+    width: 20px;
+}
+
+.newNav-cart {
+    color: #FDA5A3;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.43px;
+    line-height: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.bg2-img {
+    display: flex;
+    width: 100%;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    position: relative;
+}
+
+.popularBrands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popularBrand-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    position: absolute;
+    /* width: 100%; */
+}
+
+.popular-brand-text {
+    display: flex;
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 50px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.find-more-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: 0.58px;
+    line-height: 34px;
+    padding-bottom: 0.5rem;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 23px 0 rgba(34,34,34,0.04);
+    width: 100%;
+}
+
+.brandFood {
+    display: flex;
+    width: 300px;
+    height: 165px;
+}
+
+.brand-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+
+.kfc-brand-img {
+    width: 55px;
+    height: 55px;
+}
+
+.brand-name {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.resta-name {
+    color: #223136;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 35px;
+}
+
+.brand-origin {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.brand-photo-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.about-brand {
+    display: flex;
+    align-items: baseline;
+    color: #6A6A6A;
+    font-family: "Open Sans";
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding-top: 0.5rem;
+}
+
+.all-brands-text {
+    color: #F67E03;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-top: 0.4rem;
+}
+
+.howToOrder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.howToOrder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    position: absolute;
+    /* top: 0; */
+}
+
+.order-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.easiest-way {
+    color: #929598;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: 0.58px;
+    line-height: 34px;
+    padding-bottom: 4rem;
+}
+
+img.order-process-img {
+    display: flex;
+    width: 85px;
+    height: 100px;
+}
+
+.order-process {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.step-text {
+    color: #7C7C7C;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    line-height: 27px;
+    text-align: center;
+}
+
+img.path-img {
+    display: flex;
+    align-items: center;
+    width: 78px;
+    padding-bottom: 3.5rem;
+}
+
+.bestDeals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-deal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* justify-content: center; */
+    position: absolute;
+}
+
+.best-deal-offer-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.endless-deal-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: 0.58px;
+    line-height: 34px;
+}
+
+.deals {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.deal1-img {
+    display: flex;
+    width: 350px;
+    height: 190px;
+    /* width: 65%; */
+}
+
+.deal2-img {
+    display: flex;
+    width: 350px;
+    height: 178px;
+    /* width: 65%; */
+}
+
+.all-offer-deal-text {
+    color: #F67E03;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: right;
+}
+
+.download-app-container {
+    display: flex;
+    background: linear-gradient(206.72deg, #F3F6FF 0%, #FFFFFF 100%);
+    background-color: #F67E03;
+    padding: 0.5rem 0 0 0;
+}
+
+.tilt-logo-img {
+    width: 550px;
+    display: flex;
+    position: relative;
+    left: 38.5rem;
+    padding-bottom: 12rem;
+}
+
+img.pizza-img {
+    position: relative;
+    top: 16rem;
+    right: 59rem;
+}
+
+.download-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    left: 23rem;
+    top: 3rem;
+}
+
+.app-name {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 47px;
+    letter-spacing: 0;
+    line-height: 83px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.download-food-app-text {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 41px;
+    padding-bottom: 0.5rem;
+}
+
+.get-real-time-update-text {
+    color: #7C7C7C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.download-button {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    padding-top: 1.8rem;
+}
+
+.download-img {
+    width: 170px;
+    display: flex;
+}
+
+img.iphone-img {
+    position: relative;
+    right: 50rem;
+}

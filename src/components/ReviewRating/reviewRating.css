@@ -1,0 +1,327 @@
+.review-rating-container {
+    display: flex;
+    /* width: 100%; */
+    padding: 0 15%;
+    flex-direction: column;
+    gap: 1rem;
+    background: #E8EBF7;
+}
+
+.reviews-part {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0.5rem;
+    width: 60%;
+}
+
+.review-ratings-part {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}
+
+.reviews-sort {
+    display: flex;
+    flex-direction: row;
+    width: 59%;
+    justify-content: space-between;
+}
+
+.reviews-texrt {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.27px;
+    line-height: 22px;
+}
+
+.show-text {
+    color: #6A6A6A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+span.recent {
+    color: #F67E03;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: baseline;
+    width: 100%;
+}
+
+.review-card {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* padding: 1rem; */
+}
+
+.profile-row {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    padding: 1rem 1rem 0 1rem;
+    gap: 1rem;
+    /* padding-bottom: 1.5rem; */
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.profile-info-name {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.review-rating {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.reting-given {
+    border-radius: 4px;
+    background-color: #5FB700;
+    padding: 1px 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.review-content {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: left;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.time-like-review {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.review-date {
+    color: #B9B9B9;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.review-food-photos {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem 1rem 1rem;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+img.review-food-img {
+    width: 85px;
+    height: 80px;
+    display: flex;
+}
+
+.review-food-item {
+    width: 85px;
+    height: 80px;
+    display: contents;
+}
+
+.ratings-part {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: max-content;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    align-items: baseline;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    /* padding: 1rem 0; */
+}
+
+.rate-ur-exp {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: 30px;
+    padding-bottom: 1rem;
+}
+
+.food-serivce-rating {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.food-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: .7rem;
+    border-bottom: 1px solid #EDEDED;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.service-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: .7rem;
+    border-bottom: 1px solid #EDEDED;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.food-text {
+    color: #565454;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: 22px;
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.3rem;
+    width: 100%;
+}
+
+.write-review-part {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+form.writereview-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+    gap: .5rem;
+}
+
+.write-review-text {
+    color: #858585;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 17px;
+}
+
+input.write-review-input {
+    display: flex;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A4A4A4;
+}
+
+.write-review-input:placeholder-shown {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.27px;
+    line-height: 22px;
+    padding-bottom: 0.2rem;
+}
+
+.submit-review-btn-div {
+    display: flex;
+    width: 100%;
+    padding-top: 1.5rem;
+    cursor: pointer;
+}
+
+.submit-review-btn {
+    border-radius: 6px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+    width: 100%;
+    /* padding: 0.5rem 0; */
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.56px;
+    line-height: 38px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+input.image-input {
+    display: none;
+    
+}
+
+.add-image-text{
+    color: #F57C00;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}

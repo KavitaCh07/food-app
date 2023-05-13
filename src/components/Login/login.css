@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.form-log {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-password {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: 19px;
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.logBtn {
+    border-radius: 6px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246,126,126,0.38);
+    border: none;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.loginText {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.56px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.BtnFb {
+    border: 1px solid #02A7FD;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+}
+
+.BtnGogle {
+    border: 1px solid #FF8C7D;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.fb-google-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.text-fb {
+    color: #2C79BD;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.56px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    cursor: pointer;
+    /* padding: 1rem 2rem; */
+}
+
+.text-gogle {
+    color: #D34836;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.56px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    cursor: pointer;
+}
+
+.BtnGogle {
+    border: 1px solid #FF8C7D;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.5rem 2.5rem;
+}
+
+.dont-have-an-account {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+
+.get-one-now-text {
+    color: #F67E03;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lets-get-started-text {
+    color: #2A2C30;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.47px;
+    line-height: 38px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+
+.hi-user-text {
+    color: #2A2C30;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.37px;
+    line-height: 27px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    padding-top: 1.3rem;
+}
+
+.we-sent-u-text {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.browse-btn {
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246,126,126,0.38);
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+span.browse-btn-text {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    line-height: 38px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    text-transform: uppercase;
+}
+
+.great-text {
+    color: #2A2C30;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.37px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    padding-top: 2rem;
+}
+
+.ur-pass-success-text {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 3.5rem;
+}
+
+.login-now-btn {
+    border-radius: 6px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246,126,126,0.38);
+    padding: 0.7rem 0;
+    cursor: pointer;
+}
+
+.login-now-text {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.56px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.great-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+.forgot-pass-text {
+    color: #2A2C30;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.37px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.share-ur-text {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.forgot-tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.tablSelect {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.43px;
+    line-height: 24px;
+    border-bottom: 4px solid transparent;
+    border-radius: 2px;
+    border-image: url(../../assets/border.png);
+    border-image-slice: 1;
+    /* width: 32%; */
+    cursor: pointer;
+}
+
+.tabUnselect {
+    opacity: 0.66;
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: -0.43px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.send-otp-btn {
+    border-radius: 6px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246,126,126,0.38);
+    border: none;
+    width: 100%;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.send-otp-text {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.56px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    /* padding: 2rem; */
+}
+
+.form-otp{
+    padding-bottom: 1.5rem;
+}
+
+.arrrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.back-arrow-img {
+    cursor: pointer;
+}
+
+.forgot-bg-img{
+    width: 440px;
+    height: 457px;
+}
+
+.half-bg-forgogt-pass {
+    display: flex;
+    border-radius: 8px 0 0 8px;
+    /* position: absolute; */
+    background-image: linear-gradient(314.03deg, rgba(191,63,98,0.66) 0%, rgba(222,115,97,0.94) 23.3%, rgba(252,165,97,0.91) 59.69%, rgba(255,187,81,0.5) 100%),url(http://localhost:3000/static/media/login_bg.7cc6172be82425b5e5c9.png);
+    box-shadow: 0 4px 10px 0 rgba(246,126,126,0.38);
+    width: 420px;
+    height: 481px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 1rem; */
+    box-shadow: 0 2px 24px 0 rgba(0,0,0,0.5);
+}
+

@@ -1,0 +1,164 @@
+.restra-menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding: 0 15%; */
+    align-items: baseline;
+    height: 100vh;
+    background: #E8EBF7;
+}
+
+.restra-path {
+    /* width: 100%; */
+    display: flex;
+    padding: 0 15%;
+    color: #3F3F40;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 17px;
+    padding-bottom: 0.4rem;
+}
+
+.restra-black-bg {
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient(to right, rgba(49, 49, 49, 0.9), rgba(49, 49, 49, 0.9)), url(http://localhost:3000/static/media/black-bg.ec00e80d26d1a175cbd2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* color: rgba(49, 49, 49, 0.5); */
+    /* opacity: 0.38; */
+}
+
+.restraImg {
+    display: flex;
+    /* width: 100%; */
+    padding: 0 15%;
+}
+
+img.restra-img {
+    /* padding: 2rem 15% 0 15%; */
+    /* padding: 0 15%; */
+    width: 100%;
+    height: 50vh;
+    padding-top: 2rem;
+}
+
+.restra-img-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    width: 35%;
+    gap: 0.5rem;
+}
+
+.restra-tabs {
+    /* width: 100%; */
+    padding: 2rem 15%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    /* justify-content: space-between; */
+    background: #E8EBF7;
+}
+
+.tabSelect {
+    color: #1F1F1F;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    border-bottom: 4px solid transparent;
+    border-radius: 2px;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAECAYAAADiWU2TAAAAAXNSR0IArs4c6QAAAM9JREFUKBWFkcEVwzAIQ8FZIwt1kZ66S++ZLyv0WLv6gJP00vo9BSwkIIm/Hs/b6LaN0VdfhlnrQsZ5d3FDcPFww98RuduCXnDVL348xj34H350Bfy+9N3c7y2XGqu5qUnB1HBiaBFopyhW9yOPCqSQZSQ6eM4ef/1Yyq/2q4ZsDW4ehoJcsJSNWENIr6Ay9aGqhULDQydeSH7pIi06i/kKx1IxJyvNm931BXZMielkGZ1oeHJksYyaTA+yyCOeWnhGH1+YXsURvvzck4tf+QEdRndmLQCDgwAAAABJRU5ErkJggg==);
+    border-image-slice: 1;
+    cursor: pointer;
+}
+
+.tabUnselects{
+    color: #1F1F1F;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+
+img.cutlery-img {
+    width: 20%;
+}
+
+.rest-name {
+    color: #1C1C1C;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+
+.restra-cost-rating-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.rest-rating {
+    border-radius: 4px;
+    background-color: #5FB700;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 2px 0.5rem;
+}
+
+.qrest-cost1 {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.rating-for-orders {
+    color: #6A6A6A;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.give-rating-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

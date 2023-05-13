@@ -1,0 +1,50 @@
+/* .half-img {
+    width: 440px;
+    height: 457px;
+    background-image: linear-gradient(314.03deg, rgba(191,63,98,0.66) 0%, rgba(222,115,97,0.94) 23.3%, rgba(252,165,97,0.91) 59.69%, rgba(255,187,81,0.5) 100%);
+
+} */
+
+.hlaf-bg {
+    display: flex;
+    border-radius: 8px 0 0 8px;
+    /* position: absolute; */
+    background-image: linear-gradient(314.03deg, rgba(191,63,98,0.66) 0%, rgba(222,115,97,0.94) 23.3%, rgba(252,165,97,0.91) 59.69%, rgba(255,187,81,0.5) 100%),url(http://localhost:3000/static/media/login_bg.7cc6172be82425b5e5c9.png);
+    box-shadow: 0 4px 10px 0 rgba(246,126,126,0.38);
+    width: 420px;
+    height: 457px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 1rem; */
+    box-shadow: 0 2px 24px 0 rgba(0,0,0,0.5);
+}
+
+.lore-text {
+    color: #FFFFFF;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-align: center;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.experience-text {
+    display: flex;
+    align-items: baseline;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 34px;
+    letter-spacing: -0.57px;
+    line-height: 44px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    padding-left: 2rem;
+}
+
+.imga-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}

@@ -1,0 +1,112 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 4rem; */
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.flag-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-right: 1.5rem;
+    border-right: 1px solid rgba(151, 151, 151, 0.19);
+}
+
+.social-media-row {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    padding-left: 1.5rem;
+    gap: 0.5rem;
+}
+
+.footer-lorem-tex {
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-align: center;
+    padding-right: 3rem;
+}
+
+.city-count {
+    color: #636364;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding-right: 2rem;
+    border-right: 1px solid rgba(151, 151, 151, 0.19);
+    /* opacity: 19%; */
+    display: flex;
+    align-items: center;
+}
+
+span.city-number {
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 33px;
+    text-align: center;
+    padding-right: 0.5rem;
+}
+
+.country-count {
+    color: #636364;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    /* padding-left: 0.5rem; */
+}
+
+span.country-number {
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 33px;
+    text-align: center;
+    padding-right: 0.5rem;
+}
+
+.footer-second-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(151, 151, 151, 0.19);
+}
+
+.text {
+    color: #636364;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+}

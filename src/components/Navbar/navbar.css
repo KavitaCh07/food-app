@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.navbar-container {
+    display: flex;
+    /* background-color: antiquewhite; */
+}
+
+.navbar {
+    display: flex;
+    padding: 0rem 1.5rem;
+    flex-direction: row;
+    width: 97%;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.right-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.select-lang {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+.lorem-text {
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 39px;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-align: center;
+}
+
+.language-text {
+    color: #3E3E3E;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+}
+
+.login-text {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.create-account-text {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    cursor: pointer;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.cart-text {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.right-border {
+    box-sizing: border-box;
+    height: 50px;
+    /* width: 3px; */
+    border: 1px solid #000000;
+    opacity: 0.1;
+}
+
+.arrow-img {
+    height: 7px;
+    width: 7px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.login-user-name {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+img.profile-img {
+    width: 25px;
+    height: 25px;
+    padding-top: 0.5rem;
+}
+
+.user-name {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    padding-right: 1rem;
+}
+
+.logout-text {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    padding-right: 1rem;
+}

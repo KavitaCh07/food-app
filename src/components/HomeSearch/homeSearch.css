@@ -1,0 +1,268 @@
+.home-search {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+}
+
+img.searchcg-img {
+    width: 100%;
+    height: auto;
+    /* background-size: cover; */
+    /* object-fit: cover; */
+}
+
+.home-search-part {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    /* padding: 0 5rem; */
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.delevery-asap {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    color: #636364;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 17px;
+}
+
+.search-inputs-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 5rem; */
+}
+
+.place-input-search {
+    display: flex;
+    width: 30%;
+    position: relative;
+}
+
+.item-search {
+    display: flex;
+    width: 62%;
+}
+
+img.pin2-img {
+    position: absolute;
+    top: 0.7rem;
+    padding-left: .5rem;
+}
+
+img.loc2-img {
+    position: absolute;
+    /* left: 1rem; */
+    right: 0.5rem;
+    top: 0.65rem;
+}
+
+form.homeSearch-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    padding: 0 15%;
+    justify-content: space-between;
+}
+
+.place-search2 {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.07);
+    padding: .7rem;
+    padding: 50;
+    width: 90%;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+}
+
+.place-search2:placeholder-shown {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 19px;
+}
+
+.item-search-input {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.07);
+    padding: 0.7rem;
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.item-search-input:placeholder-shown {
+    color: #6F6F6F;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+img.current-time-img {
+    width: 55px;
+    height: 55px;
+    padding-top: .4rem;
+    cursor: pointer;
+}
+
+img.close-img {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    align-items: flex-end;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+.schedule {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.34px;
+    line-height: 33px;
+}
+
+.busy-at-work {
+    display: flex;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 17px;
+    letter-spacing: -0.41px;
+    line-height: 23px;
+    padding: 1rem 0;
+}
+
+form.schedule-form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    gap: 1rem;
+}
+
+.schedule-date {
+    color: #858585;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 17px;
+}
+
+input.schedule-date-input {
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+    opacity: 0.53;
+    width: 100%;
+}
+
+.schedule-date-input::placeholder {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.27px;
+    line-height: 22px;
+}
+
+.schedule-time-input {
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+    opacity: 0.53;
+    width: 100%;
+}
+
+.schedule-time-input::placeholder {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.27px;
+    line-height: 22px;
+}
+
+.schedule-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(49, 49, 49, 0.5);
+}
+
+.schedule-modal-inner-content {
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    z-index: 3;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    /* gap: 1rem; */
+}
+
+.modal-close {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.schedule-date-time-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.schedule-btn {
+    cursor: pointer;
+    border-radius: 4px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+    padding: 0.7rem 0;
+    width: 80%;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}

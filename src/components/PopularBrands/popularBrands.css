@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.bg2-img {
+    display: flex;
+    width: 100%;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    position: relative;
+}
+
+.popularBrands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popularBrand-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* justify-content: center; */
+    position: absolute;
+}
+
+.popular-brand-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 83px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.find-more-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0.58px;
+    line-height: 34px;
+    padding-bottom: 1rem;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 23px 0 rgba(34,34,34,0.04);
+}
+
+img.brandFood {
+    display: flex;
+    width: 100%;
+}
+
+.brand-info {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.brand-name {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.resta-name {
+    color: #223136;
+    font-family: "Open Sans";
+    font-size: 29px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 39px;
+}
+
+.brand-origin {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.brand-photo-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.about-brand {
+    display: flex;
+    align-items: baseline;
+    color: #6A6A6A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding-top: 0.5rem;
+}
+
+.all-brands-text {
+    color: #F67E03;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-top: 0.7rem;
+}
+
+.howToOrder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.howToOrder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: absolute;
+    /* top: 0; */
+}
+
+.order-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 83px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.easiest-way {
+    color: #929598;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0.58px;
+    line-height: 24px;
+    padding-bottom: 4rem;
+}
+
+.order-process {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.step-text {
+    color: #7C7C7C;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0.64px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.bestDeals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-deal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* justify-content: center; */
+    position: absolute;
+}
+
+.best-deal-offer-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 83px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.endless-deal-text {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0.58px;
+    line-height: 34px;
+}
+
+.deals {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+}
+
+.deal1-img {
+    display: flex;
+    width: 350px;
+    /* width: 65%; */
+}
+
+.deal2-img {
+    display: flex;
+    width: 338px;
+    /* width: 65%; */
+}
+
+.all-offer-deal-text {
+    color: #F67E03;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: right;
+}
+
+.download-app-container {
+    display: flex;
+    background: linear-gradient(206.72deg, #F3F6FF 0%, #FFFFFF 100%);
+    background-color: #F67E03;
+    padding: 0.5rem 0 0 0;
+}
+
+.tilt-logo-img {
+    width: 550px;
+    display: flex;
+    position: relative;
+    left: 38.5rem;
+    padding-bottom: 12rem;
+}
+
+img.pizza-img {
+    position: relative;
+    top: 16rem;
+    right: 59rem;
+}
+
+.download-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    left: 23rem;
+    top: 3rem;
+}
+
+.app-name {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 47px;
+    letter-spacing: 0;
+    line-height: 83px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.download-food-app-text {
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 41px;
+    padding-bottom: 0.5rem;
+}
+
+.get-real-time-update-text {
+    color: #7C7C7C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.download-button {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    padding-top: 1.8rem;
+}
+
+.download-img {
+    width: 170px;
+    display: flex;
+}
+
+img.iphone-img {
+    position: relative;
+    right: 50rem;
+}
