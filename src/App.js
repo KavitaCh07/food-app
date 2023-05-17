@@ -7,7 +7,9 @@ import ForgotPassword from './components/ForgotPassword/forgotPassword';
 import MainHome from './components/mainHome/mainHome';
 import HomeSearch from './components/HomeSearch/homeSearch';
 import RestraPreview from './components/RestraPreview/restraPreview';
-// import Menu from './components/Menu/menu';
+import Menu from './components/Menu/menu';
+import Account from './components/Account/account';
+import Refer from './components/Refer/refer';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         {/* <Route path='/overview' element={<Overview/>}/>
         <Route path='/reviewRating' element={<ReviewRating/>}/>
         <Route path='/gallery' element={<Gallery/>}/> */}
+        <Route path='/account' element={<Account/>}/>
+        <Route path='/refer' element={<Refer/>}/>
       </Routes>
       </BrowserRouter>
     </div>

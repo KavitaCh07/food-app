@@ -7,7 +7,7 @@
 .menu-items-orderList {
     display: flex;
     flex-direction: row;
-    padding: 0 15%;
+    /* padding: 0 15%; */
     width: 100%;
     justify-content: space-between;
 }
@@ -40,8 +40,9 @@ input.menu-search-input {
     width: 100%;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
     border: none;
-    padding: 0.5rem;
+    padding: 0.7rem;
     outline: none;
+    padding-left: 2.5rem;
 }
 
 .menu-search-input::placeholder {
@@ -52,7 +53,7 @@ input.menu-search-input {
     font-weight: 600;
     letter-spacing: 0;
     line-height: 19px;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
 }
 
 .recomended-text {
@@ -501,5 +502,25 @@ input.cooking-inst-input {
     letter-spacing: 0;
     line-height: 19px;
     width: 100%;
+    cursor: pointer;
+}
+
+.menu-search-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+img.magni-img {
+    display: flex;
+    position: absolute;
+    width: 16px;
+    height: 18px;
+    top: .55rem;
+    left: 0.5rem;
+}
+
+.addBtn {
     cursor: pointer;
 }

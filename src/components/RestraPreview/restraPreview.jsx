@@ -30,8 +30,13 @@ const RestraPreview = () => {
             <div className="restraunt-full-part">
             <div className="restra-menu-container">
                 <div className="restra-path">Home  >  UAE  >  Explore  >  Great breakfasts  >  The Boutique Kitchen</div>
+                {/* <div className="3jfg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur quisquam iusto laudantium consequatur, voluptatum ex cumque in aliquid nemo cum modi praesentium earum assumenda, nisi reiciendis atque ipsum amet.</div> */}
+                {/* <div className="dn">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo vero totam placeat corporis accusamus assumenda corrupti libero, deleniti repudiandae sunt necessitatibus, error officia numquam 2.perspiciatis molestiae! Doloribus animi accusamus nemo.</div> */}
+                {/* <div className="fgv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aut ducimus tempora dolor itaque accusamus atque nisi rerum, dolorum repellat totam minima, eveniet facilis corporis modi illo quis quam laudantium!</div> */}
+                
                 <div className="restra-black-bg">
-                    <div className="restraImg">
+                <div className="restraImg">
+                    <div className="rest-img">
                         <img src={restraImg} alt="" className='restra-img' />
                         <div className="restra-img-info">
                             <img src={cutlery} alt="" className='cutlery-img' />
@@ -52,6 +57,12 @@ const RestraPreview = () => {
                             </div>
                         </div>
                     </div>
+                    </div>
+                </div>
+                
+
+                    <div className="restaurant-all-tabs-div">
+
                     <div className="restra-tabs">
                         <div className={tab === 1 ? 'tabSelect' : 'tabUnselects'} onClick={() => { setTab(1) }}>Menu</div>
                         <div className={tab === 2 ? 'tabSelect' : 'tabUnselects'} onClick={() => { setTab(2) }}>Overview</div>
@@ -63,13 +74,11 @@ const RestraPreview = () => {
                     {tab === 2 ? <Overview /> : ""}
                     {tab === 3 ? <ReviewRating /> : ""}
                     {tab === 4 ? <Gallery /> : ""}
-
-                </div>
+                    </div>
             </div>
 
             </div>
-            
-
+            <Footer/>
         </div>
 
 

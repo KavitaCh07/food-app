@@ -32,7 +32,7 @@ const Navbar = () => {
     const [welcome, setWelcome] = useState(false);
     const [dropdown, setDropdown] = useState(false);
     const [mainCart, setMainCart] = useState(true);
-    const [loginDone, setLoginDone] = useState(false);
+    const [loginDone, setLoginDone] = useState(true);
     // const [scrollCart, setScrollCart] = useState(false);
 
     const handleClick = event => {
@@ -62,7 +62,7 @@ const Navbar = () => {
                             <>
                                 <div className="login-user-name">
                                     <div className="user-profile"><img src={kfc} alt="" className='profile-img' /></div>
-                                    <div className="user-name">Kavita</div>
+                                    <div className="user-name" onClick={() => { navigate('/account') }}>Kavita</div>
                                 </div>
                                 <div className="logout-text">Logout</div>
                                 <div className="cart-bag-info">

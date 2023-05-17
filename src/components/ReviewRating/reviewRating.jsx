@@ -24,7 +24,6 @@ const ReviewRating = () => {
                     <div className="show-text">Show : <span className='recent'>Recent <img src={downArrow} alt="" className='downArrow-img'/></span></div>
                 </div>
                 <div className="review-ratings-part">
-
                     <div className="reviews-part">
                         <div className="review-container">
                             <div className="review-card">

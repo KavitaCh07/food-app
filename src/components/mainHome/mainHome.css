@@ -73,6 +73,7 @@ span.list-by-all {
     /* width: 100%; */
     align-items: baseline;
     padding: 0 15%;
+    padding-bottom: 3rem;
 }
 
 .filters-and-restaurants {
@@ -327,6 +328,7 @@ img.menu-btn-img {
     border: 1px solid rgba(246, 126, 126,0.38);
     color: transparent;
     padding: 0.5rem 0;
+    cursor: pointer;
     /* background: transparent; */
 }
 
@@ -512,4 +514,12 @@ img.food1-img {
 img.brand1-img {
     width: 72px;
     height: 72px;
+}
+
+.rightbtn {
+    cursor: pointer;
+}
+
+.leftbtn {
+    cursor: pointer;
 }

@@ -1,7 +1,7 @@
 .overview-container {
     display: flex;
     flex-direction: column;
-    padding: 1rem 15%;
+    /* padding: 1rem 15%; */
     gap: 1rem;
     align-items: baseline;
     background: #E8EBF7;

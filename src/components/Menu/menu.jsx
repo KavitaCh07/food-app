@@ -7,6 +7,7 @@ import plus from '../../assets/my_order_plus_active.png';
 import minus from '../../assets/my_order_minus_inactive.png';
 import { useState } from 'react';
 import arrow from '../../assets/collapse button.png';
+import magnify from '../../assets/search.png';
 
 const Menu = () => {
     const [itemCount, setItemCount] = useState(0);
@@ -23,7 +24,10 @@ const Menu = () => {
 
                     <div className="menu-items-container">
                         <form action="" className="menu-search-form">
-                            <input type="text" className='menu-search-input' placeholder='Search an Item' />
+                            <div className="menu-search-div">
+                                <input type="text" className='menu-search-input' placeholder='Search an Item' />
+                                <img src={magnify} alt="" className='magni-img' />
+                            </div>
                         </form>
                         <div className="recommended-container">
                             <div className="recomended-text">Recommended (3)</div>
